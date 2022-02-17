@@ -116,6 +116,7 @@
   background-color: rgba(0, 0, 0, 0);
   color: black;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .addCardBtn:hover {
@@ -159,6 +160,7 @@
 }
 
 body, html{
+  overflow: hidden;
   margin:0;
   padding:0;
   height: 100%;
