@@ -8,7 +8,7 @@ const Home = () => {
         <h1>E wallet</h1>
         <CardList />
         <Link to='/addCard'>
-        <button className='addCardBtn'>Add a new card</button>
+        <button className='addCardBtn'>Add card</button>
         </Link>
     </div>
   )
