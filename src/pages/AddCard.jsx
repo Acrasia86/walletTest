@@ -1,10 +1,10 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { addActiveCard } from '../redux/slice/cardSlice'
- const AddCard = () => {
+import { useHistory } from 'react-router-dom';
 
+ const AddCard = () => {
   const dispatch = useDispatch();
-  const { cards } = useSelector((state) => state.cards);
   console.log('active card', addActiveCard.isUsed);
   const handleAddCard = () => {
 
