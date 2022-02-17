@@ -6,9 +6,9 @@ const cardSlice = createSlice({
         cards: [{ 
             id: 1,
             vendor: 'American express',
-            americanExpress: '',
-            visa: 'Visa',
-            mastercard: 'Mastercard',
+            americanExpress: 'American express',
+            visa: '',
+            mastercard: '',
             cardNumber: "1111 1111 1111 1111",
             cardHolder: 'Jacob Påhlsson',
             expireMonth: 10,

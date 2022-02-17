@@ -8,8 +8,12 @@ import React from 'react'
     <div>
      
         <div className='card' style={card.americanExpress === 'American express' || card.vendor === 'American express' ? {backgroundColor: 'orange'} : null}>
+          {}
             <div className='cardVendorContainer'>
+              { card.americanExpress === 'American express' ?
             <div><i className="fa-brands fa-cc-amex fa-2x cardVendorIcon"></i></div>
+            :     <div><i class="fa-brands fa-2x fa-cc-visa cardVendorIcon"></i></div>
+              }
             </div>
             { card.americanExpress === 'American express' || card.vendor === 'American express' ? 
             <div className='iconsContainer'>
