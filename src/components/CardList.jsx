@@ -14,15 +14,15 @@ import NotActiveCard from './NotActiveCard';
         <div>
         <p className='activeCard'>Active card</p>
 
-            {cards.map((card) => (
-               <Card card={card}/>
+            {cards.map((card, i) => (
+               <Card key={i} card={card}/>
             ))}
         </div>
         <div>
         <p className='activeCard'>Not active cards</p>
-        {notActiveCards.map((notActiveCard) => (
+        {notActiveCards.map((notActiveCard, i) => (
       
-          <NotActiveCard card={notActiveCard}/>
+          <NotActiveCard key={i} card={notActiveCard}/>
         ))}
         </div>
     </div>

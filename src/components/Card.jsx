@@ -12,7 +12,7 @@ import React from 'react'
             <div className='cardVendorContainer'>
               { card.americanExpress === 'American express' ?
             <div><i className="fa-brands fa-cc-amex fa-2x cardVendorIcon"></i></div>
-            :     <div><i class="fa-brands fa-2x fa-cc-visa cardVendorIcon"></i></div>
+            :     <div><i className="fa-brands fa-2x fa-cc-visa cardVendorIcon"></i></div>
               }
             </div>
             { card.americanExpress === 'American express' || card.vendor === 'American express' ? 
