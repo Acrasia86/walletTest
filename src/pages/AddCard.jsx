@@ -53,15 +53,15 @@ import { addActiveCard } from '../redux/slice/cardSlice'
   <div className='validContainer'>
   <div className="form-group">
     <label htmlFor="validThruMonth">Month</label>
-    <input type="number" className="form-control cardInput" id="expireMonth" placeholder="Valid thru month" />
+    <input type="number" className="form-control cardInput" id="expireMonth" placeholder="Month" />
   </div>
   <div className="form-group">
     <label htmlFor="validThruYear">Year</label>
-    <input type="number" className="form-control cardInput" id="expireYear" placeholder="Valid thru year" />
+    <input type="number" className="form-control cardInput" id="expireYear" placeholder="Year" />
   </div>
   <div className="form-group">
-    <label htmlFor="ccv">CCV</label>
-    <input type="number" className="form-control cardInput" id="ccv" placeholder="CCV" />
+    <label htmlFor="ccv">ccv</label>
+    <input type="number" className="form-control cardInput" id="ccv" placeholder="ccv" />
   </div>
   </div>
   <button onClick={handleAddCard} className="btn btn-primary">Add card</button>
