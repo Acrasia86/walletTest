@@ -36,3 +36,116 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  background-color: orange;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.cardNumber {
+  color: black;
+  width: 100%;
+
+}
+
+.cardText {
+  font-size: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cardText-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 20px;
+  color: black;
+  margin-left: 32px;
+  margin-right: 20px;
+}
+
+.nameContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.iconsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.icon {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.chip {
+  color: white;
+  display: inline-block;
+  width: 50px !important;
+  height: 50px !important;
+
+}
+
+.activeCard {
+  font-size: 15px;
+}
+
+.addCardBtn {
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  margin-top: 30px;
+}
+
+.addCardBtn:hover {
+  background-color: rgba(173, 172, 172, 0.3);
+}
+
+.validContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formContainer {
+  width: 450px;
+  height: 400px;
+}
+
+.cardInput {
+  margin-bottom: 20px;
+}
+
+.cardVendorIcon {
+  background-color: orange;
+  color: black;
+}
+
+.cardVendorContainer {
+ 
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
