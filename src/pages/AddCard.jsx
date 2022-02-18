@@ -50,7 +50,7 @@ import { useHistory, Link } from 'react-router-dom';
     <input type="text" className="form-control cardInput" id="cardNumber" placeholder="xxxx xxxx xxxx xxxx" />
   </div>
   <div style={{display: 'flex', flexDirection: 'row'}}>
-  <div className="form-group">
+  <div style={{marginRight: '10px'}} className="form-group">
     <label className='labels' htmlFor="firstName">First name</label>
     <input type="text" className="form-control cardInput" id="firstName" placeholder="First name" />
   </div>
@@ -60,11 +60,11 @@ import { useHistory, Link } from 'react-router-dom';
   </div>
   </div>
   <div className='validContainer'>
-  <div className="form-group">
+  <div style={{marginRight: '10px'}} className="form-group">
     <label className='labels' htmlFor="validThruMonth">Month</label>
     <input type="number" className="form-control cardInput" id="expireMonth" placeholder="00" />
   </div>
-  <div className="form-group">
+  <div style={{marginRight: '10px'}} className="form-group">
     <label className='labels' htmlFor="validThruYear">Year</label>
     <input type="number" className="form-control cardInput" id="expireYear" placeholder="00" />
   </div>
