@@ -10,7 +10,8 @@ const cardSlice = createSlice({
             visa: '',
             mastercard: '',
             cardNumber: "1111 1111 1111 1111",
-            cardHolder: 'Jacob Påhlsson',
+            firstName: 'Jacob',
+            lastName: 'Påhlsson',
             expireMonth: 10,
             expireYear: 22,
             ccv: "555",
@@ -27,9 +28,10 @@ const cardSlice = createSlice({
             state.cards = state.cards
         },
         addActiveCard: (state, action) => {
-
+         //push to notActive array from cards array
          state.notActiveCards = [...state.cards, action.payload]
          state.cards.pop();
+         //push to cards array from input
          state.cards = [...state.cards, action.payload]
          state.notActiveCards.pop();
      

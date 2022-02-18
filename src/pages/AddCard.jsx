@@ -12,7 +12,8 @@ import { useHistory, Link } from 'react-router-dom';
     let visa = document.querySelector('#visa').value;
     let mastercard = document.querySelector('#mastercard').value;
     let cardNumber = document.querySelector('#cardNumber').value;
-    let cardHolder = document.querySelector('#cardHolder').value;
+    let firstName = document.querySelector('#firstName').value;
+    let lastName = document.querySelector('#lastName').value;
     let expireMonth = document.querySelector('#expireMonth').value;
     let expireYear = document.querySelector('#expireYear').value;
     let ccv = document.querySelector('#ccv').value;
@@ -21,7 +22,8 @@ import { useHistory, Link } from 'react-router-dom';
       visa: visa,
       mastercard: mastercard,
         cardNumber: cardNumber,
-        cardHolder: cardHolder,
+        firstName: firstName,
+        lastName: lastName,
         expireMonth: expireMonth,
         expireYear: expireYear,
         ccv: ccv
@@ -47,9 +49,15 @@ import { useHistory, Link } from 'react-router-dom';
     <label className='labels' htmlFor="cardNumber">Card number</label>
     <input type="text" className="form-control cardInput" id="cardNumber" placeholder="xxxx xxxx xxxx xxxx" />
   </div>
+  <div style={{display: 'flex', flexDirection: 'row'}}>
   <div className="form-group">
-    <label className='labels' htmlFor="cardholderName">Cardholder name</label>
-    <input type="text" className="form-control cardInput" id="cardHolder" placeholder="Firstname Lastname" />
+    <label className='labels' htmlFor="firstName">First name</label>
+    <input type="text" className="form-control cardInput" id="firstName" placeholder="Firstname" />
+  </div>
+  <div className="form-group">
+    <label className='labels' htmlFor="lastName">Last name</label>
+    <input type="text" className="form-control cardInput" id="lastName" placeholder="Lastname" />
+  </div>
   </div>
   <div className='validContainer'>
   <div className="form-group">

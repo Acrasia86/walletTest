@@ -17,7 +17,7 @@ import React from 'react'
     <p class="card_numer">{card.cardNumber}</p>
     <div class="card__space-75">
       <span class="card__label">Card holder</span>
-      <p class="card__info">{card.cardHolder}</p>
+      <p class="card__info">{card.firstName} {card.lastName}</p>
     </div>
     <div class="card__space-25">
       <span class="card__label">Expires</span>
