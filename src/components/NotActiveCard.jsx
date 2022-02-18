@@ -8,8 +8,10 @@ import React from 'react'
 
     <div class="card">
       <div class="card__front card__part">
-      <img src="https://w7.pngwing.com/pngs/460/694/png-transparent-iphone-computer-icons-integrated-circuits-chips-subscriber-identity-module-sim-cards-electronics-text-rectangle.png" class="card__front-square card__square" /> 
+       
         <p style={{color: 'white'}} class="card__front-logo card__logo"> Visa</p>
+        <br />
+        <img src="https://w7.pngwing.com/pngs/460/694/png-transparent-iphone-computer-icons-integrated-circuits-chips-subscriber-identity-module-sim-cards-electronics-text-rectangle.png" class="card__front-square card__square" /> 
         <p class="card_numer">{card.cardNumber}</p>
         <div class="card__space-75">
           <span class="card__label">Card holder</span>
