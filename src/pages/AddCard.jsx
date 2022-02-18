@@ -66,7 +66,7 @@ import { useHistory, Link } from 'react-router-dom';
   </div>
   </div>
   <Link to='/'>
-  <button onClick={handleAddCard} className="btn btn-outline-info">Add card</button>
+  <button onClick={handleAddCard} className="addCardBtn">Add card</button>
   </Link>
   </div>
     </div>
