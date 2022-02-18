@@ -35,7 +35,7 @@ import { useHistory, Link } from 'react-router-dom';
 }
   return (
     <div>
-      
+      <h1 style={{color: 'white', paddingBottom: '30px'}}>Add card</h1>
   <div className='formContainer'>
   <label className='labels' htmlFor="cardNumber">Vendor</label>
   <select className="form-control form-control-sm" id='americanExpress'>
