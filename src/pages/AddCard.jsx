@@ -37,30 +37,31 @@ import { useHistory, Link } from 'react-router-dom';
     <div>
       
   <div className='formContainer'>
+  <label className='labels' htmlFor="cardNumber">Vendor</label>
   <select className="form-control form-control-sm" id='americanExpress'>
         <option value="American express" id='americanExpress'>American express</option>
         <option id='visa'>Visa</option>
         <option id='mastercard'>Mastercard</option>
 </select>
-  <div className="form-group">
-    <label htmlFor="cardNumber">Card number</label>
+  <div style={{marginTop: '15px'}} className="form-group">
+    <label className='labels' htmlFor="cardNumber">Card number</label>
     <input type="text" className="form-control cardInput" id="cardNumber" placeholder="xxxx xxxx xxxx xxxx" />
   </div>
   <div className="form-group">
-    <label htmlFor="cardholderName">Cardholder name</label>
+    <label className='labels' htmlFor="cardholderName">Cardholder name</label>
     <input type="text" className="form-control cardInput" id="cardHolder" placeholder="Firstname Lastname" />
   </div>
   <div className='validContainer'>
   <div className="form-group">
-    <label htmlFor="validThruMonth">Month</label>
+    <label className='labels' htmlFor="validThruMonth">Month</label>
     <input type="number" className="form-control cardInput" id="expireMonth" placeholder="Month" />
   </div>
   <div className="form-group">
-    <label htmlFor="validThruYear">Year</label>
+    <label className='labels' htmlFor="validThruYear">Year</label>
     <input type="number" className="form-control cardInput" id="expireYear" placeholder="Year" />
   </div>
   <div className="form-group">
-    <label htmlFor="ccv">ccv</label>
+    <label className='labels' htmlFor="ccv">ccv</label>
     <input type="number" className="form-control cardInput" id="ccv" placeholder="ccv" />
   </div>
   </div>

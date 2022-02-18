@@ -333,3 +333,7 @@ border-radius: 2px;
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
 }
+
+.labels {
+  color: white;
+}
