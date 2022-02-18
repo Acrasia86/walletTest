@@ -38,7 +38,7 @@ import { useHistory, Link } from 'react-router-dom';
       <h1 style={{color: 'white', paddingBottom: '30px'}}>Add card</h1>
   <div className='formContainer'>
   <label className='labels' htmlFor="cardNumber">Vendor</label>
-  <select className="form-control form-control-sm" id='americanExpress'>
+  <select className="form-control form-control-sm " id='americanExpress'>
         <option value="American express" id='americanExpress'>American express</option>
         <option id='visa'>Visa</option>
         <option id='mastercard'>Mastercard</option>
@@ -61,7 +61,7 @@ import { useHistory, Link } from 'react-router-dom';
     <input type="number" className="form-control cardInput" id="expireYear" placeholder="Year" />
   </div>
   <div className="form-group">
-    <label className='labels' htmlFor="ccv">Ccv</label>
+    <label className='labels' htmlFor="ccv">ccv</label>
     <input type="number" className="form-control cardInput" id="ccv" placeholder="ccv" />
   </div>
   </div>

@@ -336,4 +336,9 @@ border-radius: 2px;
 
 .labels {
   color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+input {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
