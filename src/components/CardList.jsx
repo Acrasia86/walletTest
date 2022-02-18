@@ -19,7 +19,7 @@ import NotActiveCard from './NotActiveCard';
             ))}
         </div>
         <div>
-        <p className='activeCard'>Cards</p>
+        <p className='activeCard'>Inactive cards</p>
         {notActiveCards.map((notActiveCard, i) => (
       
           <NotActiveCard key={i} card={notActiveCard}/>
