@@ -66,10 +66,10 @@ import { useHistory, Link } from 'react-router-dom';
   </div>
   </div>
   <Link to='/'>
-  <button style={{border: '1px solid #fff1af', marginRight: '50px'}} onClick={handleAddCard} className="addCardBtn">Add card</button>
+  <button style={{border: '1px solid #efff00', marginRight: '50px'}} onClick={handleAddCard} className="addCardBtn">Add card</button>
   </Link>
   <Link to='/'>
-  <button style={{border: '1px solid #efff00'}} className="addCardBtn">Go back</button>
+  <button style={{border: '1px solid #fff1af'}} className="addCardBtn">Go back</button>
   </Link>
   </div>
     </div>
