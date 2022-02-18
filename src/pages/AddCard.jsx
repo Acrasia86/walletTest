@@ -52,11 +52,11 @@ import { useHistory, Link } from 'react-router-dom';
   <div style={{display: 'flex', flexDirection: 'row'}}>
   <div className="form-group">
     <label className='labels' htmlFor="firstName">First name</label>
-    <input type="text" className="form-control cardInput" id="firstName" placeholder="Firstname" />
+    <input type="text" className="form-control cardInput" id="firstName" placeholder="First name" />
   </div>
   <div className="form-group">
     <label className='labels' htmlFor="lastName">Last name</label>
-    <input type="text" className="form-control cardInput" id="lastName" placeholder="Lastname" />
+    <input type="text" className="form-control cardInput" id="lastName" placeholder="Last name" />
   </div>
   </div>
   <div className='validContainer'>
