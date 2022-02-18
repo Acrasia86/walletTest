@@ -96,15 +96,16 @@
 
 .activeCard {
   font-size: 15px;
+  color: white;
 }
 
 .addCardBtn {
   width: 200px;
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0);
-  color: black;
+  color: white;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -163,7 +164,7 @@ body{
   display: -webkit-flex;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-   background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+   background-image: linear-gradient(to right top, #2e343d, #3e4447, #4d5455, #444948, #4b504b);
   flex-direction: column;
   -webkit-flex-direction: column;
 }
