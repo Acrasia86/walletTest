@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { addActiveCard } from '../redux/slice/cardSlice'
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
  const AddCard = () => {
   const dispatch = useDispatch();
@@ -64,7 +64,9 @@ import { useHistory } from 'react-router-dom';
     <input type="number" className="form-control cardInput" id="ccv" placeholder="ccv" />
   </div>
   </div>
+  <Link to='/'>
   <button onClick={handleAddCard} className="btn btn-primary">Add card</button>
+  </Link>
   </div>
     </div>
   )
