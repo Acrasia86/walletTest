@@ -61,8 +61,8 @@ import { useHistory, Link } from 'react-router-dom';
     <input type="number" className="form-control cardInput" id="expireYear" placeholder="Year" />
   </div>
   <div className="form-group">
-    <label className='labels' htmlFor="ccv">ccv</label>
-    <input type="number" className="form-control cardInput" id="ccv" placeholder="ccv" />
+    <label className='labels' htmlFor="ccv">Ccv</label>
+    <input type="number" className="form-control cardInput" id="ccv" placeholder="Ccv" />
   </div>
   </div>
   <Link to='/'>
