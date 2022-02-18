@@ -62,11 +62,11 @@ import { useHistory, Link } from 'react-router-dom';
   <div className='validContainer'>
   <div className="form-group">
     <label className='labels' htmlFor="validThruMonth">Month</label>
-    <input type="number" className="form-control cardInput" id="expireMonth" placeholder="Month" />
+    <input type="number" className="form-control cardInput" id="expireMonth" placeholder="00" />
   </div>
   <div className="form-group">
     <label className='labels' htmlFor="validThruYear">Year</label>
-    <input type="number" className="form-control cardInput" id="expireYear" placeholder="Year" />
+    <input type="number" className="form-control cardInput" id="expireYear" placeholder="00" />
   </div>
   <div className="form-group">
     <label className='labels' htmlFor="ccv">ccv</label>
