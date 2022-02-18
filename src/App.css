@@ -250,8 +250,8 @@ z-index: 1000;
     letter-spacing: 2px;
     color: #fff;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
 }
 
 .card__space-75 {
